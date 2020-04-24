@@ -1,4 +1,5 @@
 .Lesson{
+    position: relative;
     margin: 20px;
     background-color: aliceblue;
     width: 250px;
@@ -7,19 +8,25 @@
     color: black; 
     display: flex;
     flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
 }
+
 .Lesson:hover{
     transform: scale(1.03);
     box-shadow: 1px 1px 10px black;
     border-radius: 10px;
 }
+
 .Image{
-    width: 100%;
     height: 60%;
-    border: 1px solid black;
     border-radius: 10px 10px 0 0;
     border-bottom: 0px;
+    position: relative;
+    padding: 0.5rem;
+    align-self: center;
 }
+
 .Description{
     width: 100%;
     height: 40%;
