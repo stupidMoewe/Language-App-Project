@@ -5,7 +5,7 @@ import classes from './LessonItem.module.css';
 
 const LessonItem = (props) =>(
     <Link to='/lesson/:id' className={classes.Lesson}>
-        <img src={props.source} className={classes.Image}/>
+        <img src={props.imageURL} className={classes.Image}/>
         <div className={classes.Description}>
             <h1>{props.title}</h1>
             <p>{props.level}</p>

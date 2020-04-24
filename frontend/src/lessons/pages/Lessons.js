@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import LessonsList from '../components/LessonsList.js';
+import LessonsList from "../components/LessonsList.js";
 
-const lessons = () => <LessonsList/>;
+const lessons = () => <LessonsList />;
 
 export default lessons;
