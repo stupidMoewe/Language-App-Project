@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import Lessons from "./lessons/pages/Lessons";
+import Lesson from "./lessons/pages/Lesson";
 import MainNavigation from "./shared/components/Navigation/MainNavigation";
 import Dummy from './shared/components/Dummy';
 import "./App.css";
@@ -25,10 +26,13 @@ function App() {
 				<Route path="/lessons" exact={true}>
 					<Lessons />
 				</Route>
+				<Route path="/lessons/:id" exact={true}>
+					<Lesson />
+				</Route>
 				<Route path="/myaccount" exact={true}>
 					<UserAccount />
 				</Route>
-				<Redirect to="/" />
+				{/* <Redirect to="/" /> */}
 			</Switch>
 			</main>
 		</Router>
