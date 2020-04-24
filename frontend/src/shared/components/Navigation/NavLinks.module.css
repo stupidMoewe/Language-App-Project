@@ -1,0 +1,22 @@
+.NavLinks{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(252, 19, 16);
+    color: white;
+    align-items: center;
+    text-decoration: none;
+}
+.NavLinks li{
+    margin: 1rem;
+}
+.NavLinks a{
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+.Link:hover{
+    color: white;
+}
