@@ -1,23 +1,24 @@
 import React, { Component } from "react";
 
-import LessonItem from "./LessonItem";
+import LessonCard from "./LessonCard";
 import ALL from './AllTheLessons';
 import classes from "./LessonsList.module.css";
 
 const LessonList = () => {
 	
-	const elements = ALL.map((e) => {
+	const lessons = ALL.map((lesson) => {
 		return (
-			<LessonItem
-				title={e.title}
-				key={e.id}
-				id={e.id}
-				level={e.level}
-				imageURL={e.imageURL}
+			<LessonCard
+				title={lesson.title}
+				author={lesson.author}
+				key={lesson.id}
+				id={lesson.id}
+				level={lesson.level}
+				imageURL={lesson.imageURL}
 			/>
 		);
 	});
-	return <div className={classes.LessonsList}>{elements}</div>;
+	return <div className={classes.LessonsList}>{lessons}</div>;
 };
 
 export default LessonList;

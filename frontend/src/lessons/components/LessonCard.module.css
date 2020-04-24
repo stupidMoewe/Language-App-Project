@@ -1,8 +1,8 @@
 .Lesson{
-    margin: 40px;
+    margin: 20px;
     background-color: aliceblue;
-    width: 200px;
-    height: 250px;
+    width: 250px;
+    height: 300px;
     text-decoration: none;
     color: black; 
     display: flex;
@@ -11,19 +11,25 @@
 .Lesson:hover{
     transform: scale(1.03);
     box-shadow: 1px 1px 10px black;
+    border-radius: 10px;
 }
 .Image{
     width: 100%;
     height: 60%;
     border: 1px solid black;
+    border-radius: 10px 10px 0 0;
     border-bottom: 0px;
 }
 .Description{
     width: 100%;
     height: 40%;
     border: 1px solid black;
+    border-radius: 0 0 10px 10px;
 }
 .Description h1{
     font-size: 20px;
     color: rgb(63, 163, 64);
+}
+.Description p{
+    margin: 2px;
 }

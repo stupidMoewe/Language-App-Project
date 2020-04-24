@@ -1,16 +1,13 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import React from "react";
+import { useParams } from "react-router-dom";
 
-import ALL from '../components/AllTheLessons';
+import LessonPage from "../components/LessonPage";
+import ALL from "../components/AllTheLessons";
 
 const Lesson = () => {
-    const id=useParams().id;
-    console.log(id);
-    const myLesson = ALL.filter(lesson => `:${lesson.id}`==id);
-    console.log(myLesson[0].text);
-    return(
-    <div>{myLesson[0].text}</div>
-    )
-}
+	const id = useParams().id;
+	const myLesson = ALL.filter((lesson) => `:${lesson.id}` == id);
+	return <LessonPage title={myLesson[0].title} text={myLesson[0].text}/>;
+};
 
 export default Lesson;

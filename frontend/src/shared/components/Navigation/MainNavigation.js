@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { Link } from 'react-router-dom';
 
 import MainHeader from "./MainHeader";
 import SideDrawer from './SideDrawer';
@@ -22,7 +23,7 @@ const MainNavigation = () => {
                 <span/>
                 <span/>
             </button>
-            <h1 >Language App</h1>
+            <Link className={classes.Title}to='/'>Language App</Link>
             <nav>
                 <NavLinks />
             </nav>

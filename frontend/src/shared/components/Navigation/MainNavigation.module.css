@@ -21,9 +21,11 @@
     background: white;
     border-radius: 2px;
 }
-.MainNavigation h1{
-	border: 1px solid black;
-	padding: auto;
+.Title{
+	margin: 2rem;
+	text-decoration: none;
+	font-size: 2rem;
+	color: black;
 }
 @media (min-width: 768px) {
 	.MainNavigation button{
