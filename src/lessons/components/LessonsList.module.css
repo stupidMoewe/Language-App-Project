@@ -1,6 +1,6 @@
-.Elements{
-    border: 1px solid black;
+.LessonsList{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
