@@ -2,21 +2,40 @@
     font-size: 20px;
     display: grid;
     grid-template-columns: 80% 20%;
-    height: 100%;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
+    height: 90vh;
+}
+.LessonPage header{
+    grid-area: header;
+    background-color: rgb(62, 214, 241);
+    padding: 10px;
 }
 .LessonPage main{
-    grid-column: 1 / 2;
-    height: 100%;
+    grid-area: main;
     background-color: whitesmoke;
     margin: 0px;
     padding: 5%;
-    max-height: 100vh;
     overflow: scroll;
 }
 .LessonPage aside{
-    grid-column: 2/ 3;
-    background-color: wheat;
-    height: 100%;
+    grid-area: aside;
+    background-color: rgb(245, 225, 189);
     margin: 0px;
     padding: 2%;
+    overflow: scroll;
+}
+.LessonPage footer{
+    grid-area: footer;
+    padding: 10px;
+}
+.Word{
+    display: inline;
+}
+.Word p{
+    display: inline;
+    cursor:pointer;
 }

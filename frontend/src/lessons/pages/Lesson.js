@@ -6,7 +6,7 @@ import ALL from "../components/AllTheLessons";
 
 const Lesson = () => {
 	const id = useParams().id;
-	const myLesson = ALL.filter((lesson) => `:${lesson.id}` == id);
+	const myLesson = ALL.filter((lesson) => `:${lesson.id}`=== id);
 	return <LessonPage title={myLesson[0].title} text={myLesson[0].text}/>;
 };
 
