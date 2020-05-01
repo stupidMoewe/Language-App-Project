@@ -1,7 +1,6 @@
 .MainHeader{
     z-index: 4;
-    background-image: url(../../../img/menu_transp.png);
-    background-repeat: repeat;
+    background-color: #bedce3;
     width: 100%;
     height: 5rem;
     display: flex;

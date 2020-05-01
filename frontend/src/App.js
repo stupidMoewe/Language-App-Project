@@ -17,7 +17,7 @@ import UserAccount from "./user/pages/UserAccount";
 function App() {
 	return (
 		<Router>
-			<MainNavigation />
+			<MainNavigation/>
 			<main>
 			<Switch>
 				<Route path="/" exact={true}>
