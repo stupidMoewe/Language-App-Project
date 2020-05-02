@@ -8,7 +8,7 @@ const LessonList = () => {
 	
 	const lessons = ALL.map((lesson) => {
 		return (
-			<LessonCard
+				<LessonCard
 				title={lesson.title}
 				author={lesson.author}
 				key={lesson.id}

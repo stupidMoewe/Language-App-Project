@@ -23,7 +23,7 @@ const MainNavigation = () => {
             <div className="collapse navbar-collapse flex-grow-0 justify-content-end" id="navbarSupportedContent">
                 <ul className="navbar-nav text-right">
                     <li className="nav-item active ml-3 mr-3">
-                        <a className="nav-link" href="#">Right Link 1</a>
+                        <a className="nav-link" href="/lessons">Lessons</a>
                     </li>
                     <li className="nav-item active ml-3 mr-3">
                         <a className="nav-link" href="#">Right Link 2</a>

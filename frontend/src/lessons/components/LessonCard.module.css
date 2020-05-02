@@ -19,11 +19,11 @@
 }
 
 .Image{
-    height: 60%;
-    border-radius: 10px 10px 0 0;
-    border-bottom: 0px;
-    position: relative;
-    padding: 0.5rem;
+    height: 300px;
+    /*border-radius: 10px 10px 0 0;*/
+    /*border-bottom: 0px;*/
+    /*position: relative;*/
+    padding: 2rem;
     align-self: center;
 }
 
