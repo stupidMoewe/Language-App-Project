@@ -1,0 +1,20 @@
+.Line {
+	width: 80%;
+	height: 3rem;
+	align-items: center;
+	margin: auto;
+	margin-top: 5px;
+	display: flex;
+	justify-content: left;
+	text-align: center;
+}
+.Number {
+	border: 3px solid red;
+	border-radius: 5px;
+	width: 2rem;
+	height: 2rem;
+}
+.Title {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}

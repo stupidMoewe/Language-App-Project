@@ -1,0 +1,144 @@
+.HomePage {
+	font-family: inherit;
+	display: flex;
+	flex-direction: column;
+}
+.Header {
+	background-color: rosybrown;
+}
+.PresentationFrame {
+	margin: 7rem 5% 4rem 5%;
+	width: 90%;
+	height: 25rem;
+	color: black;
+	text-align: center;
+	background-color: white;
+	border-bottom: 1px solid lightgray;
+}
+.Description{
+	text-align: center;
+	padding: 1rem;
+	font-size: 1.3rem;
+	margin: 5rem;
+}
+.Description a{
+	text-decoration: none;
+	color: white;
+	background-color: rgb(146, 98, 98);
+	padding: 1rem;
+	border: 1px solid black;
+	border-radius: 10px;
+
+}
+.Title {
+	padding-top: 6rem;
+	animation: titleApparition 4s;
+	font-size: 3rem;
+}
+.descriptionOne {
+	animation: descriptionOneApparition 4s;
+	font-size: 2rem;
+}
+.descriptionTwo {
+	animation: descriptionTwoApparition 4s;
+	font-size: 2rem;
+}
+
+.Boxes {
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 10%;
+}
+.Box {
+	border: 3px solid lightgray;
+	border-radius: 5px;
+	width: 18rem;
+	height: 14rem;
+	margin: 2rem;
+	padding: 1rem;
+	text-align: center;
+}
+.RegisterFrame {
+	top: 30rem;
+	height: 15rem;
+	width: 100%;
+}
+.BtnRegisterFrame {
+	font-family: inherit;
+	display: block;
+	margin: 4rem auto 4rem auto;
+	background-color: var(--theme-color-blue);
+	padding: 1rem;
+	font-size: 1.6rem;
+	border: 1px solid var(--theme-color-blue);
+	border-radius: 4px;
+	animation: btnAnimation 4s;
+	transition: .1s linear;
+}
+.BtnRegisterFrame:hover {
+	transform: scale(1.04);
+	transition: .3s linear;
+}
+
+@keyframes titleApparition {
+	from {
+		transform: translateY(-2rem);
+		opacity: 0;
+	}
+	30% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes descriptionOneApparition {
+	from {
+		transform: translateY(-2rem);
+		opacity: 0;
+	}
+	30% {
+		transform: translateY(-2rem);
+		opacity: 0;
+	}
+	60% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes descriptionTwoApparition {
+	from {
+		transform: translateY(-2rem);
+		opacity: 0;
+	}
+	60% {
+		transform: translateY(-2rem);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes btnAnimation {
+	from {
+		display: none;
+		opacity: 0;
+	}
+	90% {
+		display: none;
+		opacity: 0;
+	}
+	100% {
+		display: block;
+		opacity: 1;
+	}
+}

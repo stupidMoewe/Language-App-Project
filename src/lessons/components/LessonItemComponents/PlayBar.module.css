@@ -1,0 +1,9 @@
+.Bar {
+	width: 100%;
+	height: 10px;
+	background-color: lightgrey;
+}
+.LoadedBar{
+	height: 100%;
+	background-color:var(--theme-color-blue);
+}

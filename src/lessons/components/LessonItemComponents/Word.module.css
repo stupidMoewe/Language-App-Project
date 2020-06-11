@@ -1,0 +1,17 @@
+.Word{
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+.Word a{
+    display: inherit;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.Word:hover{
+    background-color: white;
+    transform: scale(1.03);
+}

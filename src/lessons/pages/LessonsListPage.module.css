@@ -1,0 +1,30 @@
+.LessonsListPage {
+	margin-top: 3rem;
+}
+.LessonsSettings {
+	margin: 3rem 7rem 1rem 7rem;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+.LevelTitle{
+    display: inline-block;
+}
+.ButtonsLevel {
+    display: inline-block;
+    height: 2rem;
+    margin-left: 2rem;
+}
+.ButtonsLevel button {
+	background-color: transparent;
+	height: 100%;
+	width: 4rem;
+    border: 4px solid lightgray;
+    outline: none;
+    font-size: 0.9rem;
+}
+.LoadedLessons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 3rem 8rem 4rem 8rem;
+}

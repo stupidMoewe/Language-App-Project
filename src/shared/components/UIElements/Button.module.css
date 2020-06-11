@@ -1,0 +1,13 @@
+.Button{
+    margin: 1rem;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.Button:hover{
+
+    transform: scale(1.05);
+}

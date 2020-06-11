@@ -1,0 +1,17 @@
+.ChaptersListPage {
+	margin-top: 3rem;
+}
+.List {
+    position: fixed;
+	width: 25%;
+    min-height: 80vh;
+    margin: 30px;
+    background-color: white;
+}
+.ChaptersCards {
+    position: relative;
+    left: 30%;
+    min-height: 45rem;
+    padding-top: 1rem;
+    width: 65%;
+}

@@ -11,8 +11,8 @@
 	flex-direction: column;
 	justify-content: space-around;
 	margin-right: 2rem;
-	cursor: pointer;
 	outline: none;
+	cursor: default;
 }
 .MainNavigation button span{
     display: block;
@@ -21,9 +21,12 @@
     background: white;
     border-radius: 2px;
 }
-.MainNavigation h1{
-	border: 1px solid black;
-	padding: auto;
+.Title{
+	margin: 2rem;
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: black;
+	cursor: default;
 }
 @media (min-width: 768px) {
 	.MainNavigation button{

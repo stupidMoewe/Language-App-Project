@@ -1,14 +1,17 @@
 import React from 'react';
-
-import classes from './UserPage.module.css';
+import { Link } from 'react-router-dom';
 
 const UserPage = () => (
-    <div className={classes.UserPage}>
-        <h1>My Texts</h1>
-        <h2>Texts on work</h2>
-        <h2>Texts on which I would like to work</h2>
-        <h2>Texts done</h2>
-    </div>
-)
+	<React.Fragment>
+		<div>My Data</div>
+		<div>My Data</div>
+		<div>My Data</div>
+		<div>My Data</div>
+		<div>My Data</div>
+		<div>My Data</div>
+		<div>Voc</div>
+		<Link to="/vocabulary">Acces au voc</Link>
+	</React.Fragment>
+);
 
 export default UserPage;

@@ -1,0 +1,17 @@
+.AddLesson {
+	text-align: center;
+	margin-top: 3rem;
+	height: 46rem;
+}
+.Form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.Form label {
+	margin: 1rem;
+}
+.Form input {
+	margin-left: 1rem;
+	outline: none;
+}

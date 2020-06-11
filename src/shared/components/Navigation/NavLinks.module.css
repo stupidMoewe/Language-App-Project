@@ -1,22 +1,55 @@
-.NavLinks{
-    list-style: none;
-    height: 100%;
+.NavLinks {
+	list-style: none;
+	height: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-decoration: none;
+	font-size: 18px;
+}
+.NavLinks li {
+	margin: 1rem;
+}
+.NavLinks a {
+	color: black;
+	transition: color 0.3s;
+	text-decoration: none;
+	padding: 0.5rem;
+	cursor: default;
+}
+.NavLinks a:hover {
+	color: red;
+}
+.Link:hover {
+	color: white;
+}
+@media (max-width: 767px) {
+	.NavLinks {
+		display: none;
+	}
+}
+
+.ModalForm{
     display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(252, 19, 16);
-    color: white;
-    align-items: center;
-    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
 }
-.NavLinks li{
-    margin: 1rem;
+.ModalEmailInput {
+	font-size: 1rem;
+	padding: 4px;
+	outline: none;
 }
-.NavLinks a{
-    color: black;
-    text-decoration: none;
-    border: 1px solid black;
-    padding: 0.5rem;
+.ModalPasswordInput {
+	font-size: 1rem;
+	padding: 4px;
+	outline: none;
 }
-.Link:hover{
-    color: white;
+.ModalEnterButton{
+    display: inline-block;
+    margin: 20px auto 20px auto;
+    width: 10rem;
+    font-size: 1rem;
+    padding: 0.7rem;
+    background-color: var(--theme-color-blue);
+    border: 1px solid var(--theme-color-blue);
 }

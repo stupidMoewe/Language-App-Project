@@ -1,6 +1,11 @@
+:root{
+    --theme-color-blue: #66c7ff;
+}
+
 .App{
     text-align: center;
 }
 main{
-    margin-top: 5rem;
+    background-color: rgb(249, 249, 249);
+    font-family: 'Roboto';
 }

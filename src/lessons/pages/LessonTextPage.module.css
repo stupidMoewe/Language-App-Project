@@ -1,0 +1,89 @@
+.LessonPage {
+	position: fixed;
+	top: 9rem;
+	left: 0;
+	width: 90%;
+	height: 90%;
+	font-size: 20px;
+	grid-template-columns: 100%;
+	grid-template-rows: 80% 10%;
+	grid-template-areas: "main " "footer ";
+}
+.LessonPage main {
+	position: fixed;
+	top: 6rem;
+	height: 40rem;
+	width: 100%;
+	background-color: rgb(249, 249, 249);
+	overflow: scroll;
+	display: flex;
+	justify-content: space-between;
+}
+.Text {
+	padding: 1rem 1rem 1rem 10rem;
+	width: 100%;
+}
+.AsideText {
+	padding: 10px;
+	width: 22rem;
+}
+.VocabularyList {
+	/* background-color: rgb(250, 235, 208); */
+	background-color: transparent;
+	height: 99%;
+	overflow: scroll;
+	border: 1px solid lightgray;
+}
+.VocabularyList::-webkit-scrollbar{
+	display: none;
+}
+.ExercicesLink a {
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: black;
+	padding: 1rem;
+	cursor: default;
+}
+.LessonPage footer {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	bottom: 0;
+	height: 4rem;
+	width: 100%;
+	border: 1px solid lightgray;
+}
+.Audio {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border-radius: 2px;
+	background-color: rgb(105, 30, 30);
+}
+.ButtonAudio {
+	margin: 0.5rem 1rem auto 2rem;
+	background-color: var(--theme-color-blue);
+	height: 2rem;
+	outline: none;
+	border: 1px solid var(--theme-color-blue);
+	border-radius: 3px;
+	font-size: 0.8rem;
+}
+.Word {
+	display: inline;
+}
+.Word p {
+	display: inline;
+	cursor: pointer;
+}
+.Footer {
+	display: flex;
+	justify-content: space-between;
+}
+.Footer a{
+	margin: 0.8rem;
+	color: black;
+	text-decoration: none;
+}
